@@ -6,7 +6,11 @@ description: TCP three-way connection between server and client
 
 ref: [网络编程](https://blog.csdn.net/ljytower/category\_9127045.html) [markparticle](https://github.com/markparticle/WebServer/) [socket参数](https://blog.csdn.net/lee244868149/article/details/43732025)
 
+Files in main branch: basic/server_0.cpp,_ basic/_client\__0.cpp
 
+
+
+## code analysis
 
 * ````
   ``` cpp
@@ -122,13 +126,16 @@ ref: [网络编程](https://blog.csdn.net/ljytower/category\_9127045.html) [mark
     }
   ```
   ````
-* ````
-  ``` cpp
-  //open two terminal and enter the Container and the document， run the command below:
-  // 1. server:  g++ server_0.cpp -o server_0
-  // 2. client:  g++ client_0.cpp -o client_0
-  // 3. ./server_0
-  // 4. ./client_0 127.0.0.1 <your port number>
-  ```
-  ````
-*
+
+## run
+
+````
+``` cpp
+//open two terminal and enter the Container and the document folder， run the command below:
+// 1. server:  g++ server_0.cpp -o server_0
+// 2. client:  g++ client_0.cpp -o client_0
+// 3. ./server_0
+// 4. ./client_0 127.0.0.1 <your port number>
+```
+````
+
